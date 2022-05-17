@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Milkman';
+    src: url('../fonts/MilkmanLight.woff2') format('woff2'),
+        url('../fonts/MilkmanLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milkman';
+    src: url('../fonts/MilkmanBold.woff2') format('woff2'),
+        url('../fonts/MilkmanBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milkman';
+    src: url('../fonts/MilkmanRegular.woff2') format('woff2'),
+        url('../fonts/MilkmanRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Appears DEMO';
+    src: url('../fonts/AppearsDEMO-Regular.woff2') format('woff2'),
+        url('../fonts/AppearsDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+
+
+}
+
+    
