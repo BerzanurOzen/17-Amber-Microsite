@@ -34,10 +34,76 @@
 }
 
 
+:root {
+    --blue : #76B0ED;
+    --pink : #F059FA;
+    --purple :#820AD6;
+
+}
 
 body {
+    margin: auto;
+    max-width: 375px;
+}
+.fifties {
+    background-color: black;
+    text-align: center;
+    color: white;
+   
+}
+.sixties {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.seventies {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.amber-home {
+    
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    
+}
+.about {
+    margin: 70px 30px;
+}
+h4 {
+    text-align: left;
+    margin: 30px;
+    padding-top: 20px; 
+    font-size: 30px;
+}
+p {
+    text-align: center;
+    padding-bottom: 60px; ;
+}
+.partners {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+   
+}
+.product50 {
+    color: var(--blue);
+}
+.product60 {
+    color:var(--pink);
+}
+.product70 {
+    color: var(--purple);
+}
 
-
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  padding: 50px;
 }
 
     
