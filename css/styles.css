@@ -63,6 +63,15 @@ body {
     color: white;
     margin-top: 4px;
 }
+.product50 {
+    color: var(--blue);
+}
+.product60 {
+    color:var(--pink);
+}
+.product70 {
+    color: var(--purple);
+}
 
 .amber-home {
     
@@ -88,15 +97,7 @@ h4 {
     border-color: black;
    
 }
-.product50 {
-    color: var(--blue);
-}
-.product60 {
-    color:var(--pink);
-}
-.product70 {
-    color: var(--purple);
-}
+
 .button {
     width: 40px;
     margin-bottom: 10px;
@@ -104,10 +105,18 @@ h4 {
 }
 h3 {
     text-align: right;
+    font-size: 50px;
 }
-.menu-home {
-    text-align: left;
+
+.menu-product  {
+    text-align: right;
+    color: var(--pink);
 }
+.menu-contact {
+    text-align: right;
+    color: var(--purple);
+}
+
 
 
     
