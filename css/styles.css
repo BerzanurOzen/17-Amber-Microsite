@@ -41,6 +41,7 @@
     --lightbleu :#B8DFCE;
     --lightgreen :#DCE379;
     --darkpurple :#530AE4;
+    --darkblue: #6B79CA ;
 
 }
 
@@ -92,9 +93,10 @@ h4 {
 }
 
 .partners {
-    border-width: 2px;
+    border-width: 5px;
     border-style: solid;
     border-color: black;
+    margin: 20px 0;
    
 }
 
@@ -108,14 +110,71 @@ h3 {
     font-size: 50px;
 }
 
-.menu-product  {
-    text-align: right;
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.button-nav {
+    width: 100px;
+    text-align: center;
+    padding: 0 50px;
+    margin: 1px 0;
+}
+
+.menu-product,
+.menu-contact {
+    align-self: flex-end;
+    
+}
+
+.menu-home,
+.menu-partners {
+    align-self: flex-start; 
+    
+}
+
+
+.menu-product a {  
     color: var(--pink);
 }
-.menu-contact {
-    text-align: right;
+
+.menu-contact a {
     color: var(--purple);
 }
+
+.menu-home a {
+    color: var(--darkblue); 
+     
+}
+
+.menu-product a {
+    color: var(--pink);
+}
+
+.menu-partners a {
+    color: var(--blue);
+}
+
+a {
+    text-decoration: none;
+
+}
+.menu-home {
+    border : var(--darkblue) 1px solid;
+}
+.menu-product {
+    border: var(--pink) 1px solid;
+}
+.menu-partners {
+    border: var(--blue) 1px solid;
+}
+.menu-contact {
+    border: var(--purple) 1px solid;
+}
+
 
 
 
