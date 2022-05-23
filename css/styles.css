@@ -44,7 +44,7 @@
     --darkpurple :#530AE4;
     --darkblue: #6B79CA ;
     --babybue: #b3dee7 ;
-    --lightpurple : #304797 ;
+    --lightpurple : #304697a1 ;
     --green :#8abf42 ;
 
 }
@@ -54,13 +54,16 @@ body {
     max-width: 375px;
 }
 .website-50 {
-    background-color: var(--babybue);
+    background-color: var(--lightbleu);
 }
 .website-60 {
     background-color: var(--lightgreen);
 }
 .website-70 {
     background-color: var(--green);
+}
+.index {
+    background-image: url(../img/font_page-dacceuil.jpg);
 }
 .product {
     background-color: black;
@@ -77,7 +80,6 @@ body {
 .product70 {
     color: var(--green);
 }
-
 .amber-home {
     
     border-width: 2px;
@@ -88,6 +90,7 @@ body {
 }
 .about {
     margin: 70px 30px;
+   
 }
 
 
@@ -124,7 +127,8 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: black;
+ 
+    padding: 30px 0px;
 }
 
 .button-nav {
@@ -185,8 +189,7 @@ a {
     border: var(--purple) 1px solid;
 }
 .contact {
-    background:rgba(0, 0, 0, 0.61) ;
-    text-align: center;
+   text-align: center;
    display: flex;
    justify-content: space-evenly;
    padding: 30px 0;
@@ -204,16 +207,41 @@ a {
 .logo-eikon {
     text-align: center;
     width: 50px;
-    padding: 0 50%;
+    padding: 0 43%;
 }
 
 .amber-about {
-    background: var(--lightpink);
     margin: 0px 0px ;
-    border-radius: 7px black solid;
-
+   
 }
 .description {
-   
     padding: 40px 90px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.block50 {
+    background-color: var(--lightpink);
+    
+}
+ .block60 {
+    background-color: var(--babybue);
+}
+.block70 {
+  background-color: var(--lightpurple);
+  
+}
+
+.partners-img {
+    width: 50px;
+}
+.link {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    text-align: center;
+    margin: 15px 0;
+    text-decoration: none;
+    
 }
