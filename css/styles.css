@@ -38,10 +38,14 @@
     --blue : #76B0ED;
     --pink : #F059FA;
     --purple :#820AD6;
+    --lightpink :#d3accd;
     --lightbleu :#B8DFCE;
     --lightgreen :#DCE379;
     --darkpurple :#530AE4;
     --darkblue: #6B79CA ;
+    --babybue: #b3dee7 ;
+    --lightpurple : #304797 ;
+    --green :#8abf42 ;
 
 }
 
@@ -50,13 +54,13 @@ body {
     max-width: 375px;
 }
 .website-50 {
-    background-color: var(--lightbleu);
+    background-color: var(--babybue);
 }
 .website-60 {
     background-color: var(--lightgreen);
 }
 .website-70 {
-    background-color: var(--darkpurple);
+    background-color: var(--green);
 }
 .product {
     background-color: black;
@@ -65,13 +69,13 @@ body {
     margin-top: 4px;
 }
 .product50 {
-    color: var(--blue);
+    color: var(--babybue);
 }
 .product60 {
-    color:var(--pink);
+    color:var(--lightgreen);
 }
 .product70 {
-    color: var(--purple);
+    color: var(--green);
 }
 
 .amber-home {
@@ -194,10 +198,22 @@ a {
     display: flex;
     background-color: none;
     
+    
 }
 
 .logo-eikon {
     text-align: center;
     width: 50px;
     padding: 0 50%;
+}
+
+.amber-about {
+    background: var(--lightpink);
+    margin: 0px 0px ;
+    border-radius: 7px black solid;
+
+}
+.description {
+   
+    padding: 40px 90px;
 }
