@@ -7,31 +7,6 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Milkman';
-    src: url('../fonts/MilkmanBold.woff2') format('woff2'),
-        url('../fonts/MilkmanBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Milkman';
-    src: url('../fonts/MilkmanRegular.woff2') format('woff2'),
-        url('../fonts/MilkmanRegular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Appears DEMO';
-    src: url('../fonts/AppearsDEMO-Regular.woff2') format('woff2'),
-        url('../fonts/AppearsDEMO-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 
 :root {
@@ -46,6 +21,9 @@
     --babybue: #b3dee7 ;
     --lightpurple : #304697c7 ;
     --green :#8abf42 ;
+    --50typo: 'Send Flowers', cursive;
+    --60typo: 'Schoolbell', cursive;
+    --70typo :'Beau Rivage', cursive;
 
 }
 
@@ -76,12 +54,16 @@ body {
 }
 .product50 {
     color: var(--babybue);
+    font-family: var(--50typo);
 }
 .product60 {
     color:var(--lightgreen);
+    font-family: var(--60typo);
+
 }
 .product70 {
     color: var(--green);
+    font-family: var(--70typo);
 }
 .amber-home {
     
@@ -227,14 +209,20 @@ a {
 }
 .block50 {
     background-color: var(--lightpink);
+    font-family: var(--50typo);
+    color: white;
   
     
 }
  .block60 {
     background-color: var(--babybue);
+    font-family: var(--60typo);
+    color: white;
 }
 .block70 {
   background-color: var(--lightpurple);
+  font-family: var(--70typo) ;
+  color: white;
   
 }
 
@@ -246,6 +234,7 @@ a {
     text-align: center;
     margin: 15px 0;
     text-decoration: none;
+    color: white;
    
     
 }
@@ -253,6 +242,7 @@ a {
 .link50 {
     background-color: var(--lightpink);
     padding: 4px 50px;
+    color: white;
 
 }
 .link60 {
@@ -265,7 +255,8 @@ a {
 }
 .partners-img {
     width: 50%;
-    margin: 20px 50px;
+    margin: 50px 10px;
+    
 
    
 }
