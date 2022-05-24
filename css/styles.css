@@ -44,7 +44,7 @@
     --darkpurple :#530AE4;
     --darkblue: #6B79CA ;
     --babybue: #b3dee7 ;
-    --lightpurple : #304697a1 ;
+    --lightpurple : #304697c7 ;
     --green :#8abf42 ;
 
 }
@@ -52,6 +52,7 @@
 body {
     margin: auto;
     max-width: 375px;
+    
 }
 .website-50 {
     background-color: var(--lightbleu);
@@ -63,7 +64,9 @@ body {
     background-color: var(--green);
 }
 .index {
-    background-image: url(../img/font_page-dacceuil.jpg);
+    background-image: url(../img/backround.svg);
+    width: 100%;
+    margin: 0;
 }
 .product {
     background-color: black;
@@ -127,8 +130,9 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
- 
     padding: 30px 0px;
+    background: black;
+    margin-bottom: 80px;
 }
 
 .button-nav {
@@ -212,16 +216,18 @@ a {
 
 .amber-about {
     margin: 0px 0px ;
-   
+    border: 4px; 
+    
+    
+
 }
 .description {
-    padding: 40px 90px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
+    padding: 40px 50px;
+ 
 }
 .block50 {
     background-color: var(--lightpink);
+  
     
 }
  .block60 {
@@ -232,9 +238,6 @@ a {
   
 }
 
-.partners-img {
-    width: 50px;
-}
 .link {
     border: 2px;
     border-style: solid;
@@ -243,5 +246,26 @@ a {
     text-align: center;
     margin: 15px 0;
     text-decoration: none;
+   
     
+}
+
+.link50 {
+    background-color: var(--lightpink);
+    padding: 4px 50px;
+
+}
+.link60 {
+    background: var(--babybue);
+    padding: 4px 50px;
+}
+.link70 {
+    background: var(--lightpurple);
+    padding: 4px 50px;
+}
+.partners-img {
+    width: 50%;
+    margin: 20px 50px;
+
+   
 }
