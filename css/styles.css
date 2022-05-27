@@ -43,8 +43,16 @@ body {
 }
 .index {
     background-image: url(../img/backround.svg);
-    width: 100%;
+    background-color: var(--purple);
+    max-width: 375px;
     margin: 0;
+    background-repeat-x: no-repeat;
+    
+}
+
+a:visited
+{
+    color: initial;
 }
 .product {
     background-color: black;
@@ -71,6 +79,8 @@ body {
     border-style: solid;
     border-color: black;
     padding: 3px ;
+    width: 300px;
+    margin: 0 auto;
     
 }
 .about {
@@ -199,9 +209,6 @@ a {
 .amber-about {
     margin: 0px 0px ;
     border: 4px; 
-    
-    
-
 }
 .description {
     padding: 40px 50px;
@@ -210,19 +217,15 @@ a {
 .block50 {
     background-color: var(--lightpink);
     font-family: var(--50typo);
-    color: white;
   
-    
 }
  .block60 {
     background-color: var(--babybue);
     font-family: var(--60typo);
-    color: white;
 }
 .block70 {
   background-color: var(--lightpurple);
   font-family: var(--70typo) ;
-  color: white;
   
 }
 
@@ -256,7 +259,7 @@ a {
 .partners-img {
     width: 50%;
     margin: 50px 10px;
-    
-
-   
+}
+.img {
+    width: auto;
 }
